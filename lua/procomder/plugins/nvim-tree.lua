@@ -18,9 +18,6 @@ return {
     		width = 30,
   		},
   		renderer = {
-				indent_marker = {
-					enable = true,
-				},
 				icons = {
 					glyphs = {
 						folder = {
