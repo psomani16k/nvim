@@ -16,6 +16,4 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 -- setting up lazy.nvim
-require("lazy").setup(
-	"procomder.plugins"
-)
+require("lazy").setup({ spec = "procomder.plugins", change_detection = { notify = false }})
