@@ -11,3 +11,4 @@ keymap.set("n", "<leader>tc", "<cmd>tabclose<CR>", { desc = "Close current tab" 
 keymap.set("n", "<leader>cs", ":nohl<CR>", { desc = "Clear Search Highlights" })
 
 -- shortcuts to various things....
+keymap.set("n", "<leader>ee", "<cmd>Ex<CR>", { desc = "Switch to NetRW"})
